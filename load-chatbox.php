@@ -1,6 +1,7 @@
 <?php
 include 'dbh.php';
 
+  // This query gets all messages from the database.
   $select_data =<<<EOF
   SELECT * from MESSAGES;
   EOF;
