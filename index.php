@@ -16,6 +16,7 @@
     setInterval(function() {
       $('#chatbox').load('load-chatbox.php');
     }, 1000);
+
   });
 
   </script>
@@ -32,10 +33,11 @@
     </form>
 
     <div id="chatbox"
-    style="overflow: auto;
+      style="overflow: auto;
       border: 1px solid black;
       width: 750px;
       height: 300px;
+      position: relative;
       ">
 
     </div>
