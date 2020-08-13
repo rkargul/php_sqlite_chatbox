@@ -16,5 +16,4 @@ include 'dbh.php';
     echo $row['MESSAGE'];
     echo "</p>";
   }
-
  ?>

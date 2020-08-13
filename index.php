@@ -31,11 +31,15 @@
       <input id="send_button" type="submit" value="Send">
     </form>
 
-    <div id="chatbox" style="border: 1px solid black; width: 750px; height: 300px;">
-      
+    <div id="chatbox"
+    style="overflow: auto;
+      border: 1px solid black;
+      width: 750px;
+      height: 300px;
+      ">
+
     </div>
 
-    <!-- <button id="button" >New messages</button> -->
 
   </body>
 </html>
